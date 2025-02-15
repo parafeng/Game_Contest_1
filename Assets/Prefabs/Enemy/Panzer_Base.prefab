@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1722934142482832636}
   - component: {fileID: 8686853099655427215}
   - component: {fileID: 6592119454517177624}
-  m_Layer: 0
+  - component: {fileID: 6600873646108257310}
+  m_Layer: 6
   m_Name: Panzer_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ff528ff53b05ccc449045fd155a93bb7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -139,10 +140,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06080389, y: 0.07431555}
+  m_Offset: {x: -0.06080389, y: -0.05281949}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,8 +154,35 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0948277, y: 3.0947046}
+  m_Size: {x: 2.0948277, y: 3.0173182}
   m_EdgeRadius: 0
+--- !u!50 &6600873646108257310
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822715774793958805}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &3809082930823290022
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 507687636344856099}
   - component: {fileID: 8437572376166267318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PanzerTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,8 +254,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d3240bab6ade1ba4da708d0a1fb6b8c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -250,7 +278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7043459307097114022}
   - component: {fileID: 2848465470009882957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,8 +338,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a9e8419190884e44e86de6f8cfaac7a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -334,7 +362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8861872383599326043}
   - component: {fileID: 7123261151720612398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PanzerTower_shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,8 +422,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8af2327ce9164104ea747a1d0ad81012, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -418,7 +446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55684583643062833}
   - component: {fileID: 4547261018523654138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +462,7 @@ Transform:
   m_GameObject: {fileID: 8752363693329126134}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.971, z: 0}
+  m_LocalPosition: {x: 0, y: 2.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -478,8 +506,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9301aa2fe22d31e4ca91521085fd1e7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

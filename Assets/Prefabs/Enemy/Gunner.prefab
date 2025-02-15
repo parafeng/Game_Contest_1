@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4474960965240289975}
   - component: {fileID: 2333893905441821869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d180ccd5bfe652b4b92101dfda15812a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -96,7 +96,8 @@ GameObject:
   - component: {fileID: 362617170070552816}
   - component: {fileID: 6728079143198750687}
   - component: {fileID: 3490056847512727051}
-  m_Layer: 0
+  - component: {fileID: -3049091829435549000}
+  m_Layer: 6
   m_Name: Gunner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,8 +159,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d1fe533100499cf45b1a6104394e0958, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -222,12 +223,39 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00501889, y: 0.12804246}
+  m_Offset: {x: 0.00501889, y: -0.094804406}
   serializedVersion: 2
-  m_Radius: 0.29849744
+  m_Radius: 0.28597796
+--- !u!50 &-3049091829435549000
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5539923259740957607}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &6139262556630381975
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2580787861317701193}
   - component: {fileID: 3446131025532794440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +282,7 @@ Transform:
   m_GameObject: {fileID: 6139262556630381975}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: -0.83, z: 0}
+  m_LocalPosition: {x: 0.09, y: 0.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -298,8 +326,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ee0b81f676a60eb4d87349bd7b0b7b5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

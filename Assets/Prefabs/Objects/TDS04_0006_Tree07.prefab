@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4293176762462303531}
   - component: {fileID: 7433907363493087671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TDS04_0006_Tree07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4b58f050bfbbbd54480446b05cc9aa93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -95,7 +95,8 @@ GameObject:
   - component: {fileID: 344573953671708135}
   - component: {fileID: 3182122360801597747}
   - component: {fileID: 3928522223850451479}
-  m_Layer: 0
+  - component: {fileID: -757829349146802388}
+  m_Layer: 3
   m_Name: TDS04_0006_Tree07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,8 +157,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a49d407740c5b9647b3bdc20f643b404, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -205,3 +206,30 @@ CircleCollider2D:
   m_Offset: {x: -0.028015435, y: -0.06803858}
   serializedVersion: 2
   m_Radius: 0.3330577
+--- !u!50 &-757829349146802388
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7950306784253688306}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

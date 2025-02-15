@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5527778329917683634}
   - component: {fileID: 5788521177074593777}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TDS04_0018_Box1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 74261b978e2b43640a3d9974ef7921b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -95,7 +95,8 @@ GameObject:
   - component: {fileID: 3787443312036824687}
   - component: {fileID: 2252662883616735633}
   - component: {fileID: 7599090549711345384}
-  m_Layer: 0
+  - component: {fileID: 5116286778507439507}
+  m_Layer: 3
   m_Name: TDS04_0018_Box1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,8 +157,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: bc3120bdc9e99034a8e9580b320277c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -215,3 +216,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9375, y: 0.96875}
   m_EdgeRadius: 0
+--- !u!50 &5116286778507439507
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6799512734688239756}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

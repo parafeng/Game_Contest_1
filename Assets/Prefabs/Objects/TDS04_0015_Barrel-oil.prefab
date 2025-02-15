@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4162435837091123915}
   - component: {fileID: 1627668012985129154}
   - component: {fileID: 4058195280688147600}
-  m_Layer: 0
+  - component: {fileID: -6800203379169910663}
+  m_Layer: 3
   m_Name: TDS04_0015_Barrel-oil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d5f5b298c6b17d74dbea711fbf05fb89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,6 +122,33 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3125
+--- !u!50 &-6800203379169910663
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67844684070758886}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &7330508850881715723
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,7 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4293220886439829416}
   - component: {fileID: 7680954092298201427}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TDS04_0015_Barrel-oil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,8 +219,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dd7ad7c1e576db64ebe36bf89c54fa1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

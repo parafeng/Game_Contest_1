@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3354724125237798960}
   - component: {fileID: 7599188342902440643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TDS04_0000_House01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 444fb772832d6994485502bfb37406f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -95,7 +95,8 @@ GameObject:
   - component: {fileID: 9037096003868971769}
   - component: {fileID: 212244505529217049}
   - component: {fileID: 8784685638934711637}
-  m_Layer: 0
+  - component: {fileID: -2625361778228040339}
+  m_Layer: 3
   m_Name: TDS04_0000_House01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,8 +157,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 996dc14a9a870cc43aaa9574c4721ef8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -215,3 +216,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.125, y: 4.125}
   m_EdgeRadius: 0
+--- !u!50 &-2625361778228040339
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702549377761894097}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

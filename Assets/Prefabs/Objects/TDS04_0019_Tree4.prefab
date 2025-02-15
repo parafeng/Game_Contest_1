@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2549152751305699582}
   - component: {fileID: 602632308046841036}
   - component: {fileID: 849305104322775353}
-  m_Layer: 0
+  - component: {fileID: 9174866007877916396}
+  m_Layer: 3
   m_Name: TDS04_0019_Tree4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2e39077cedb57fb42a8660b98bf02e90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,6 +122,33 @@ CircleCollider2D:
   m_Offset: {x: -0.12511814, y: 0}
   serializedVersion: 2
   m_Radius: 1.7183074
+--- !u!50 &9174866007877916396
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502956914035979837}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &8570802149880027411
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,7 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7960956986853441732}
   - component: {fileID: 2540822252847598938}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TDS04_0019_Tree4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,8 +219,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1770878133
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6e45323da8adb5d47a850e79fd4321d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

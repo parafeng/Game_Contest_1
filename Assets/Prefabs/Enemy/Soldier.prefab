@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6931497407848514992}
   - component: {fileID: 2609047389854776117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7644352334637466903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ff316453e9112454598facc05d73ffe8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -96,7 +96,8 @@ GameObject:
   - component: {fileID: 8225801893738949439}
   - component: {fileID: 2794937451020841790}
   - component: {fileID: 8987804083784582858}
-  m_Layer: 0
+  - component: {fileID: 3015899117903988678}
+  m_Layer: 6
   m_Name: Soldier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,8 +159,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a9accdae1a72ea64e867db629738978f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -222,12 +223,39 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0129882395, y: 0.034780324}
+  m_Offset: {x: -0.080763936, y: -0.064180255}
   serializedVersion: 2
-  m_Radius: 0.2880846
+  m_Radius: 0.293293
+--- !u!50 &3015899117903988678
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7736993941602055467}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &8622696335507330145
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6833271063162557103}
   - component: {fileID: 6707568788454005913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +282,7 @@ Transform:
   m_GameObject: {fileID: 8622696335507330145}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: -1.61, z: 0}
+  m_LocalPosition: {x: 0.182, y: 1.662, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -298,8 +326,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1112826457
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9301aa2fe22d31e4ca91521085fd1e7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
