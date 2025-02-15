@@ -6,18 +6,28 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Instance;
     private Animator anim;
 
-    [SerializeField] private float moveSpeed;
+    public float moveSpeed;
     [SerializeField] private float rotationSpeed = 5f;
     private bool isWalking = false;
     private bool isAttacking = false;
 
     private Rigidbody2D rb;
-    public Vector2 moveInput;
+    private Vector2 moveInput;
 
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -58,13 +68,6 @@ public class PlayerController : MonoBehaviour
 
     private void Shooting()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            anim.SetBool("isAttacking", true);
-        }
-        else
-        {
-            anim.SetBool("isAttacking", false);
-        }
+        
     }
 }
